@@ -1,0 +1,14 @@
+# Credenciales y entorno local
+.env
+*.local
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Logs
+*.log
