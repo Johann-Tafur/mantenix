@@ -19,12 +19,15 @@ mantenimientos preventivos (por kilometraje y por fecha).
 
 ```
 docs/
-  historias-usuario/   Historias de usuario por épica
-  modelo-datos/         Modelo entidad-relación y diccionario de datos
-  figma/                 Enlaces y exportes del diseño en Figma
+  historias-usuario/         Historias de usuario por épica (37 HU en 8 épicas)
+  modelo-datos/               Modelo entidad-relación y diccionario de datos
+  figma/                       Enlace, estado y especificación del diseño en Figma
+  trazabilidad.md              HU ↔ tablas de BD ↔ pantalla de Figma
+  evidencia-base-de-datos.md   Resultado real de ejecutar los scripts de BD
 database/
-  schema.sql             Script DDL (MySQL 8.4)
-  seed.sql                Datos reales/realistas de carga inicial
+  schema.sql                   Script DDL (MySQL 8.4): tablas, vista, triggers
+  seed.sql                     Datos reales/realistas de carga inicial
+  README.md                    Cómo levantar la base de datos localmente
 ```
 
 ## Base de datos
