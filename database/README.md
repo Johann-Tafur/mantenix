@@ -51,3 +51,4 @@ Contraseña de prueba para todos: `Mantenix2026*`
 
 - [Diccionario de datos](../docs/modelo-datos/diccionario-datos.md)
 - [Modelo entidad-relación](../docs/modelo-datos/modelo-er.md)
+- [Evidencia de ejecución](../docs/evidencia-base-de-datos.md) — resultado real de correr estos scripts
