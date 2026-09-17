@@ -38,6 +38,11 @@ database/
 
 El diseño de interfaz se encuentra en Figma — ver [docs/figma/README.md](docs/figma/README.md) para el enlace.
 
+## Trazabilidad
+
+Ver [docs/trazabilidad.md](docs/trazabilidad.md) para la matriz que conecta cada historia de
+usuario con las tablas de la base de datos y la pantalla de Figma correspondiente.
+
 ## Estado del proyecto
 
 En construcción. Ver [docs/historias-usuario/](docs/historias-usuario/) para el alcance funcional detallado.
