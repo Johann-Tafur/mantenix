@@ -12,6 +12,7 @@ Archivo: **https://www.figma.com/design/e2hyTjY8Xm5ZQGS9WnZtMx** (equipo de Joha
 | 02 — Dashboard Administrador (HU-035) | ⚠️ En Figma, pero con datos inventados que no coinciden con la BD (ver "Correcciones pendientes en Figma"). Versión corregida en [mockups/02-dashboard.svg](mockups/02-dashboard.svg) |
 | 03 — Clientes (HU-008) | ⚠️ En Figma con bug de componentes y datos erróneos. Versión corregida en [mockups/03-clientes.svg](mockups/03-clientes.svg) |
 | 04 — Vehículo, ficha técnica | 🖼️ Mockup SVG listo: [mockups/04-vehiculo-ficha.svg](mockups/04-vehiculo-ficha.svg) |
+| 08 a 16 — Listado de órdenes, Reportes, Usuarios, Portal del cliente, Ficha de cliente, Modales de alta, Perfil, Recuperar contraseña | 🖼️ Mockups SVG listos, ver [mockups/README.md](mockups/README.md) |
 | 05 — Crear orden de trabajo | 🖼️ Mockup SVG listo: [mockups/05-crear-orden.svg](mockups/05-crear-orden.svg) |
 | 06 — Detalle de orden de trabajo | 🖼️ Mockup SVG listo: [mockups/06-detalle-orden.svg](mockups/06-detalle-orden.svg) |
 | 07 — Catálogo de servicios e inventario de repuestos | 🖼️ Mockups SVG listos: [07a](mockups/07a-catalogo-servicios.svg) y [07b](mockups/07b-inventario-repuestos.svg) |

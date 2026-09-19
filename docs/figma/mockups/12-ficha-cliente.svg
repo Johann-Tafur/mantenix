@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<rect x="16" y="154" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="172.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<circle cx="31" cy="336.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="341" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Usuarios</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Transportes El Dorado S.A.S.</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Ficha del cliente e historial</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Valentina Rojas</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Recepcionista</text>
+<rect x="292" y="104" width="1116" height="88" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="146" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#111827" text-anchor="start">Transportes El Dorado S.A.S.</text>
+<text x="316" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#6B7280" text-anchor="start">NIT 900123456-1 · Última visita: 13 sep 2026</text>
+<rect x="1116" y="129" width="90" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1161" y="153" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Editar</text>
+<rect x="1218" y="129" width="170" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1303" y="153" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">+ Registrar vehículo</text>
+<rect x="292" y="212" width="1116" height="92" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="240" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Teléfono</text>
+<text x="316" y="264" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="start">3157894561</text>
+<text x="560" y="240" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Correo</text>
+<text x="560" y="264" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="start">contacto@transporteseldorado.com</text>
+<text x="960" y="240" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Dirección</text>
+<text x="960" y="264" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="start">Av. Boyacá # 12-45, Bogotá</text>
+<text x="316" y="288" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">El número de documento no se puede modificar (HU-009).</text>
+<text x="292" y="340" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Vehículos (3)</text>
+<rect x="292" y="356" width="1116" height="172" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<path d="M293 396 V368 a11 11 0 0 1 11 -11 H1396 a11 11 0 0 1 11 11 V396 Z" fill="#F3F4F6"/>
+<text x="312" y="381" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Placa</text>
+<text x="460" y="381" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Vehículo</text>
+<text x="800" y="381" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Tipo</text>
+<text x="950" y="381" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Kilometraje</text>
+<text x="1388" y="381" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end"></text>
+<text x="312" y="423" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">TED001</text>
+<text x="460" y="423" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Chevrolet NPR · 2018</text>
+<text x="800" y="423" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Camión</text>
+<text x="950" y="423" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">95.200 km</text>
+<text x="1388" y="423" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="440" x2="1407" y2="440" stroke="#F3F4F6"/>
+<text x="312" y="467" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">TED002</text>
+<text x="460" y="467" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Nissan NP300 · 2020</text>
+<text x="800" y="467" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Camioneta</text>
+<text x="950" y="467" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">54.000 km</text>
+<text x="1388" y="467" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="484" x2="1407" y2="484" stroke="#F3F4F6"/>
+<text x="312" y="511" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">TED003</text>
+<text x="460" y="511" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Chevrolet NPR · 2020</text>
+<text x="800" y="511" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Camión</text>
+<text x="950" y="511" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">68.200 km</text>
+<text x="1388" y="511" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<text x="292" y="568" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Historial de órdenes</text>
+<rect x="292" y="584" width="1116" height="128" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<path d="M293 624 V596 a11 11 0 0 1 11 -11 H1396 a11 11 0 0 1 11 11 V624 Z" fill="#F3F4F6"/>
+<text x="312" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Orden</text>
+<text x="460" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Fecha</text>
+<text x="600" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Vehículo</text>
+<text x="800" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Costo</text>
+<text x="950" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Estado</text>
+<text x="1388" y="609" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end"></text>
+<text x="312" y="651" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0009</text>
+<text x="460" y="651" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">13 sep 2026</text>
+<text x="600" y="651" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">TED002</text>
+<text x="800" y="651" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">$45.000</text>
+<rect x="950" y="635" width="71" height="22" rx="11" fill="#3B82F6" fill-opacity="0.14" stroke="none"/><text x="985.5" y="650" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#3B82F6" text-anchor="middle">Asignada</text>
+<text x="1388" y="651" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver orden</text>
+<line x1="293" y1="668" x2="1407" y2="668" stroke="#F3F4F6"/>
+<text x="312" y="695" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0003</text>
+<text x="460" y="695" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">2 jul 2026</text>
+<text x="600" y="695" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">TED001</text>
+<text x="800" y="695" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">$361.000</text>
+<rect x="950" y="679" width="77" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="988.5" y="694" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Entregada</text>
+<text x="1388" y="695" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver orden</text>
+</svg>

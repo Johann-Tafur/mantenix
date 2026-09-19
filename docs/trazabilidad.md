@@ -4,10 +4,12 @@ Conecta cada historia de usuario con las tablas/columnas de la base de datos que
 con la pantalla de Figma donde se ve reflejada. Sirve para verificar que documentación, base de
 datos y diseño están alineados entre sí — y para ver de un vistazo qué falta por diseñar.
 
-Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · **04** Vehículo (ficha) ·
-**05** Crear orden de trabajo · **06** Detalle de orden de trabajo · **07** Catálogo/Inventario.
-"—" significa que la pantalla específica para esa HU todavía no está en el alcance diseñado
-(ver [docs/figma/README.md](figma/README.md)).
+Pantallas (16): **01** Login · **02** Dashboard · **03** Clientes · **04** Ficha de vehículo ·
+**05** Crear orden · **06** Detalle de orden · **07** Catálogo e inventario · **08** Listado de órdenes ·
+**09** Reportes · **10** Usuarios · **11** Portal del cliente · **12** Ficha de cliente ·
+**13** Modal nuevo cliente · **14** Modal registrar vehículo · **15** Mi perfil · **16** Recuperar contraseña.
+Las pantallas 01 a 03 existen en Figma; las 02 a 16 también como mockups SVG con datos reales de
+`seed.sql` en [figma/mockups/](figma/mockups/README.md) (ver [figma/README.md](figma/README.md)).
 
 ## Épica 1 — Autenticación y usuarios
 
@@ -15,26 +17,26 @@ Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · 
 |---|---|---|
 | HU-001 Inicio de sesión | `usuario` (correo, contrasena_hash, estado) | 01 — Login ✅ |
 | HU-002 Cierre de sesión | `usuario` | Presente en el topbar de toda pantalla interna ✅ |
-| HU-003 Recuperación de contraseña | `usuario` | — (flujo secundario de 01, pendiente) |
-| HU-004 Crear usuarios internos | `usuario`, `rol` | — (pantalla "Administración de usuarios", pendiente) |
-| HU-005 Desactivar usuario interno | `usuario.estado` | — (pendiente) |
-| HU-006 Gestión de mi perfil | `usuario` | — (pendiente) |
+| HU-003 Recuperación de contraseña | `usuario` | 16 — Recuperar contraseña (mockup SVG ✅) |
+| HU-004 Crear usuarios internos | `usuario`, `rol` | 10 — Usuarios (mockup SVG ✅) |
+| HU-005 Desactivar usuario interno | `usuario.estado` | 10 — Usuarios (mockup SVG ✅) |
+| HU-006 Gestión de mi perfil | `usuario` | 15 — Mi perfil (mockup SVG ✅) |
 
 ## Épica 2 — Clientes
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-007 Registrar cliente | `cliente` | 03 — Clientes (formulario, pendiente de maquetar como modal) ⚠️ |
-| HU-008 Buscar cliente | `cliente` | 03 — Clientes ✅ |
-| HU-009 Editar cliente | `cliente` | 03 — Clientes (ficha detalle, pendiente) |
-| HU-010 Historial de un cliente | `cliente`, `vehiculo`, `orden_trabajo` | — (ficha de cliente, pendiente) |
-| HU-011 Portal del cliente | `usuario`, `cliente` | — (portal del cliente, fuera del primer lote) |
+| HU-007 Registrar cliente | `cliente` | 13 — Modal nuevo cliente (mockup SVG ✅) |
+| HU-008 Buscar cliente | `cliente` | 03 — Clientes (Figma y mockup SVG ✅) |
+| HU-009 Editar cliente | `cliente` | 12 — Ficha de cliente (mockup SVG ✅) |
+| HU-010 Historial de un cliente | `cliente`, `vehiculo`, `orden_trabajo` | 12 — Ficha de cliente (mockup SVG ✅) |
+| HU-011 Portal del cliente | `usuario`, `cliente` | 11 — Portal del cliente (mockup SVG ✅) |
 
 ## Épica 3 — Vehículos
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-012 Registrar vehículo | `vehiculo` | — (formulario, pendiente de maquetar) |
+| HU-012 Registrar vehículo | `vehiculo` | 14 — Modal registrar vehículo (mockup SVG ✅) |
 | HU-013 Editar vehículo / kilometraje | `vehiculo.kilometraje_actual` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
 | HU-014 Buscar vehículo por placa | `vehiculo.placa` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
 | HU-015 Ficha técnica y bitácora | `vehiculo`, `orden_trabajo`, `proximo_mantenimiento` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
@@ -67,7 +69,7 @@ Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · 
 | HU-027 Diagnóstico y observaciones | `orden_trabajo.observaciones` | 06 — Detalle de orden (mockup SVG ✅) |
 | HU-028 Finalizar y entregar | `orden_trabajo`, trigger `trg_orden_trabajo_after_update` | 06 — Detalle de orden (mockup SVG ✅) |
 | HU-029 Cancelar orden | `orden_trabajo.motivo_cancelacion` | 06 — Detalle de orden (mockup SVG ✅) |
-| HU-030 Listado de órdenes por estado | `orden_trabajo`, `estado_orden` | — (listado "Órdenes de trabajo" dedicado, pendiente; resumen parcial visible en 02) |
+| HU-030 Listado de órdenes por estado | `orden_trabajo`, `estado_orden` | 08 — Listado de órdenes (mockup SVG ✅) |
 
 ## Épica 7 — Historial y alertas preventivas
 
@@ -75,22 +77,21 @@ Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · 
 |---|---|---|
 | HU-031 Historial de mantenimientos | `orden_trabajo`, `orden_servicio` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
 | HU-032 Calcular próximo mantenimiento | `proximo_mantenimiento` + trigger `trg_orden_trabajo_after_update` | Automático — visible en 04 y en el portal del cliente |
-| HU-033 Alertar al cliente | `vista_alertas_mantenimiento` | — (portal del cliente, fuera del primer lote) |
-| HU-034 Panel de alertas del taller | `vista_alertas_mantenimiento` | 02 — Dashboard Administrador ✅ (resumen) / pantalla dedicada pendiente |
+| HU-033 Alertar al cliente | `vista_alertas_mantenimiento` | 11 — Portal del cliente (mockup SVG ✅) |
+| HU-034 Panel de alertas del taller | `vista_alertas_mantenimiento` | 02 — Dashboard Administrador (mockup SVG ✅) |
 
 ## Épica 8 — Reportes
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-035 Panel general | Agregados de `orden_trabajo`, `repuesto` | 02 — Dashboard Administrador ✅ |
-| HU-036 Reporte de servicios más realizados | `orden_servicio` | — (pantalla Reportes, pendiente) |
-| HU-037 Reporte de desempeño por técnico | `orden_trabajo` | — (pantalla Reportes, pendiente) |
+| HU-035 Panel general | Agregados de `orden_trabajo`, `repuesto` | 02 — Dashboard Administrador (Figma y mockup SVG ✅) |
+| HU-036 Reporte de servicios más realizados | `orden_servicio` | 09 — Reportes (mockup SVG ✅) |
+| HU-037 Reporte de desempeño por técnico | `orden_trabajo` | 09 — Reportes (mockup SVG ✅) |
 
 ## Resumen de cobertura
 
 - **37/37** historias de usuario tienen su contraparte modelada en la base de datos.
-- **23/37** historias ya tienen pantalla diseñada: Login, Dashboard y Clientes en Figma, y las
-  pantallas 02 a 07 como mockups SVG en [figma/mockups/](figma/mockups/README.md) con datos reales de
-  `seed.sql`.
-- Las 14 restantes (usuarios, perfil, formularios de alta, portal del cliente, listado de órdenes y
-  reportes) quedan como siguiente lote de pantallas; ver [figma/README.md](figma/README.md).
+- **37/37** historias de usuario tienen pantalla diseñada (Login, Dashboard y Clientes en Figma; el
+  resto como mockups SVG). HU-002 (cerrar sesión) se cubre con el enlace del topbar/portal.
+- Pendiente de fondo: llevar las pantallas 04 a 16 al archivo de Figma (importando los SVG) y corregir
+  los componentes y datos de las pantallas 02 y 03 ya existentes allí.

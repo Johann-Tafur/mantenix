@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<circle cx="31" cy="336.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="341" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Usuarios</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Mi perfil</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Datos de contacto y seguridad de tu cuenta</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Valentina Rojas</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Recepcionista</text>
+<rect x="292" y="104" width="548" height="330" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Datos de contacto</text>
+<text x="316" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Nombre</text><rect x="316" y="176" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="328" y="201" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Valentina Rojas Medina</text>
+<text x="316" y="248" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Teléfono</text><rect x="316" y="256" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="328" y="281" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">3112345678</text>
+<text x="316" y="328" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Correo</text><rect x="316" y="336" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="328" y="361" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">valentina.rojas@mantenix.com</text>
+<text x="316" y="392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Si cambias el correo se te pedirá reconfirmarlo.</text>
+<rect x="666" y="380" width="150" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="741" y="404" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">Guardar cambios</text>
+<rect x="860" y="104" width="548" height="330" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="884" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Cambiar contraseña</text>
+<text x="884" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Contraseña actual</text><rect x="884" y="176" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="896" y="201" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">••••••••</text>
+<text x="884" y="248" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Nueva contraseña</text><rect x="884" y="256" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="896" y="281" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">••••••••</text>
+<text x="884" y="328" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Confirmar nueva contraseña</text><rect x="884" y="336" width="500" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="896" y="361" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">••••••••</text>
+<text x="884" y="392" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Mínimo 8 caracteres, con letras y números.</text>
+<rect x="1234" y="380" width="150" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1309" y="404" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">Actualizar</text>
+</svg>

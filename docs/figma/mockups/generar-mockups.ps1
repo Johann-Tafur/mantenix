@@ -47,7 +47,7 @@ function Shell($active, $title, $sub, $user, $role) {
   $s += (Rc 0 0 1440 900 $C.bg)
   $s += (Rc 0 0 260 900 $C.w $C.n300)
   $s += (Tx 26 44 'Mantenix' 20 700 $C.p900)
-  $nav = 'Dashboard', 'Órdenes de trabajo', 'Clientes', 'Vehículos', 'Catálogo y repuestos', 'Reportes'
+  $nav = 'Dashboard', 'Órdenes de trabajo', 'Clientes', 'Vehículos', 'Catálogo y repuestos', 'Reportes', 'Usuarios'
   for ($i = 0; $i -lt $nav.Count; $i++) {
     $y = 72 + $i * 41; $on = ($nav[$i] -eq $active)
     if ($on) { $s += (Rc 16 $y 228 37 $C.p50 'none' 8) }
@@ -254,3 +254,152 @@ $rows = @(); foreach ($r in $rp) { $est = if ($r[3] -le $r[4]) { 'Bajo stock' } 
 $b += (Tbl 292 164 1116 $cols $rows 40 40)
 $b += (Tx 292 704 'Mostrando 12 de 15 repuestos · las filas con stock actual ≤ stock mínimo se marcan en rojo como "Bajo stock" (HU-022).' 12 400 $C.n500)
 Svg '07b-inventario-repuestos.svg' ($b -join "`n")
+
+# ============================ 08 Listado de ordenes ============================
+$b = @((Shell 'Órdenes de trabajo' 'Órdenes de trabajo' 'Seguimiento del flujo de trabajo del taller' 'Valentina Rojas' 'Recepcionista'))
+foreach ($f in @(@(292, 190, 'Estado: Todos'), @(494, 190, 'Técnico: Todos'), @(696, 260, 'Fechas: 1 jun – 19 sep 2026'))) {
+  $b += (Rc $f[0] 104 $f[1] 40 $C.w $C.n300 8); $b += (Tx ($f[0] + 12) 129 $f[2] 14 400 $C.n700); $b += (Tx ($f[0] + $f[1] - 16) 129 '▾' 12 400 $C.n500 'end')
+}
+$b += (Btn 1258 105 150 '+ Nueva orden')
+$cols = @(@('Orden', 312, 'start', 500, $C.n900), @('Cliente · vehículo', 450, 'start'), @('Técnico', 800, 'start'), @('Ingreso', 940, 'start', 400, $C.n500), @('Costo', 1040, 'start', 500, $C.n900), @('Estado', 1170, 'start'), @('', 1388, 'end'))
+$ord = @(
+  @('OT-2026-0001', 'Andrés Felipe Gómez Restrepo · AFG123', 'Andrés Muñoz', '10 jun', 433000, 'Entregada'),
+  @('OT-2026-0002', 'María Camila Rodríguez Pérez · MCR456', 'Kevin Bermúdez', '15 jun', 398000, 'Entregada'),
+  @('OT-2026-0003', 'Transportes El Dorado S.A.S. · TED001', 'Fabián Pineda', '2 jul', 361000, 'Entregada'),
+  @('OT-2026-0004', 'Carlos Eduardo Ramírez Toro · CER567', 'Andrés Muñoz', '20 jul', 279000, 'Entregada'),
+  @('OT-2026-0005', 'Luisa Fernanda Ortiz Vélez · LFO234', 'Kevin Bermúdez', '5 sep', 80000, 'Finalizada'),
+  @('OT-2026-0006', 'Diana Patricia López Cárdenas · DPL890', 'Fabián Pineda', '8 sep', 695000, 'Finalizada'),
+  @('OT-2026-0007', 'Distribuidora La Sabana Ltda. · DLS010', 'Andrés Muñoz', '10 sep', 235000, 'En proceso'),
+  @('OT-2026-0008', 'Juan Pablo Herrera Duque · JPH345', 'Kevin Bermúdez', '12 sep', 167000, 'En proceso'),
+  @('OT-2026-0009', 'Transportes El Dorado S.A.S. · TED002', 'Fabián Pineda', '13 sep', 45000, 'Asignada'),
+  @('OT-2026-0010', 'Sandra Milena Zapata Ríos · SMZ679', 'Andrés Muñoz', '13 sep', 80000, 'Asignada'),
+  @('OT-2026-0011', 'Jorge Iván Salazar Muñoz · JIS789', 'Sin asignar', '14 sep', 280000, 'Pendiente'),
+  @('OT-2026-0012', 'Sandra Milena Zapata Ríos · SMZ678', 'Sin asignar', '1 sep', 150000, 'Cancelada'))
+$rows = @(); foreach ($r in $ord) { $rows += , @($r[0], $r[1], $r[2], $r[3], (Mon $r[4]), @{badge=$r[5]}, @{link='Ver'}) }
+$b += (Tbl 292 164 1116 $cols $rows 40 40)
+$b += (Tx 292 704 'Mostrando 12 de 12 órdenes' 12 400 $C.n500)
+Svg '08-ordenes-listado.svg' ($b -join "`n")
+
+
+# ============================ 09 Reportes ============================
+$b = @((Shell 'Reportes' 'Reportes' 'Servicios más realizados y desempeño por técnico' 'Johann Tafur' 'Administrador'))
+$b += (Rc 292 104 300 40 $C.w $C.n300 8); $b += (Tx 304 129 'Rango: 1 jun – 19 sep 2026' 14 400 $C.n700)
+$b += (Btn 1268 105 140 'Exportar CSV' 'secondary')
+$b += (Card 292 164 700 470); $b += (Tx 316 198 'Servicios más realizados' 16 600)
+$b += (Tx 780 198 'Veces' 12 600 $C.n500 'end'); $b += (Tx 968 198 'Ingresos' 12 600 $C.n500 'end')
+$rep = @(@('Cambio de aceite y filtro', 4, 480000), @('Cambio de pastillas de freno', 2, 300000), @('Alineación y balanceo', 2, 160000), @('Revisión y cambio de correa de distribución', 1, 450000), @('Cambio de batería', 1, 280000), @('Cambio de bujías', 1, 90000), @('Cambio de líquido de frenos', 1, 60000), @('Cambio de filtro de aire', 1, 45000), @('Rotación de llantas', 1, 35000))
+for ($i = 0; $i -lt 9; $i++) {
+  $y = 214 + $i * 44
+  $b += (Tx 316 ($y + 25) $rep[$i][0] 13 400 $C.n700)
+  $b += (Rc 600 ($y + 12) (30 * $rep[$i][1]) 8 $C.p600 'none' 4)
+  $b += (Tx 780 ($y + 25) "$($rep[$i][1])" 13 500 $C.n900 'end'); $b += (Tx 968 ($y + 25) (Mon $rep[$i][2]) 13 500 $C.n900 'end')
+}
+$b += (Tx 316 620 'Excluye órdenes canceladas.' 12 400 $C.n500)
+$b += (Card 1008 164 400 470); $b += (Tx 1032 198 'Desempeño por técnico' 16 600)
+$tec = @(@('Andrés Felipe Muñoz Castaño', '2 de 4 órdenes terminadas', '1 h 43 min', 103), @('Kevin Santiago Bermúdez Ospina', '2 de 3 órdenes terminadas', '1 h 8 min', 68), @('Fabián Alexander Pineda Gil', '2 de 3 órdenes terminadas', '4 h 0 min', 240))
+for ($i = 0; $i -lt 3; $i++) {
+  $y = 222 + $i * 128
+  $b += (Tx 1032 ($y + 8) $tec[$i][0] 14 600); $b += (Tx 1032 ($y + 30) $tec[$i][1] 13 400 $C.n700)
+  $b += (Tx 1032 ($y + 56) 'Tiempo promedio de ejecución' 12 500 $C.n500); $b += (Tx 1384 ($y + 56) $tec[$i][2] 13 600 $C.n900 'end')
+  $b += (Rc 1032 ($y + 66) 352 8 $C.n100 'none' 4); $b += (Rc 1032 ($y + 66) ([int](352 * $tec[$i][3] / 240)) 8 $C.p600 'none' 4)
+  if ($i -lt 2) { $b += (Ln 1032 ($y + 100) 1384 ($y + 100) $C.n300) }
+}
+Svg '09-reportes.svg' ($b -join "`n")
+
+# ============================ 10 Usuarios ============================
+$b = @((Shell 'Usuarios' 'Usuarios internos' 'Solo visible para el rol Administrador' 'Johann Tafur' 'Administrador'))
+$b += (Rc 292 104 360 40 $C.w $C.n300 8); $b += (Tx 304 129 'Buscar por nombre o correo...' 14 400 $C.n500)
+$b += (Btn 1238 105 170 '+ Nuevo usuario')
+$cols = @(@('Nombre', 312, 'start', 500, $C.n900), @('Correo', 580, 'start'), @('Rol', 880, 'start'), @('Estado', 1010, 'start'), @('', 1388, 'end'))
+$rows = @(
+  @('Johann Tafur Farfán', 'johanntafurfarfan@gmail.com', 'Administrador', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Carlos Mario Cardona Valderrama', 'carlos.cardona@mantenix.com', 'Administrador', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Valentina Rojas Medina', 'valentina.rojas@mantenix.com', 'Recepcionista', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Sebastián Quintero Ávila', 'sebastian.quintero@mantenix.com', 'Recepcionista', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Andrés Felipe Muñoz Castaño', 'andres.munoz@mantenix.com', 'Técnico', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Kevin Santiago Bermúdez Ospina', 'kevin.bermudez@mantenix.com', 'Técnico', @{badge='Activo'}, @{link='Editar · Desactivar'}),
+  @('Fabián Alexander Pineda Gil', 'fabian.pineda@mantenix.com', 'Técnico', @{badge='Activo'}, @{link='Editar · Desactivar'}))
+$b += (Tbl 292 164 1116 $cols $rows 46 40)
+$b += (Tx 292 540 'Al crear un usuario se genera una contraseña temporal que debe cambiar en su primer ingreso (HU-004).' 12 400 $C.n500)
+$b += (Tx 292 560 'Un usuario desactivado no puede iniciar sesión, pero conserva su historial de órdenes (HU-005).' 12 400 $C.n500)
+Svg '10-usuarios.svg' ($b -join "`n")
+
+# ============================ 11 Portal del cliente ============================
+$b = @()
+$b += (Rc 0 0 1440 900 $C.bg); $b += (Rc 0 0 1440 72 $C.w 'none'); $b += (Ln 0 72 1440 72 $C.n300)
+$b += (Tx 162 44 'Mantenix' 20 700 $C.p900)
+$b += (Circ 1278 36 16 $C.p600); $b += (Tx 1254 32 'Andrés Felipe Gómez' 13 500 $C.n900 'end'); $b += (Tx 1254 48 'Cliente' 11 400 $C.n500 'end')
+$b += (Tx 1316 41 'Cerrar sesión' 13 500 $C.p600)
+$b += (Tx 162 130 'Hola, Andrés Felipe' 24 700); $b += (Tx 162 156 'Este es el estado de tus vehículos y sus mantenimientos.' 14 400 $C.n500)
+$b += (Card 162 184 1116 96); $b += (Tx 186 222 'AFG123' 20 700); $b += (Tx 186 246 'Chevrolet Spark GT · 2019 · Automóvil' 14 400 $C.n500)
+$b += (Tx 1254 222 'Kilometraje actual' 12 500 $C.n500 'end'); $b += (Tx 1254 252 '41.800 km' 22 700 $C.n900 'end')
+$b += (Tx 162 316 'Mantenimientos programados' 16 600)
+$cols = @(@('Servicio', 186, 'start', 500, $C.n900), @('Cuándo', 520, 'start'), @('Faltan', 800, 'start'), @('Estado', 1150, 'start'))
+$rows = @(
+  @('Cambio de aceite y filtro', '19 mar 2027 o 46.800 km', '5.000 km / 6 meses', @{badge='Al día'}),
+  @('Rotación de llantas', '19 mar 2027 o 51.800 km', '10.000 km / 6 meses', @{badge='Al día'}))
+$b += (Tbl 162 332 1116 $cols $rows 46 40)
+$b += (Tx 162 488 'Verás el aviso "Próximo" 15 días o 500 km antes, y "Vencido" si se supera la fecha o el kilometraje (HU-033).' 12 400 $C.n500)
+$b += (Tx 162 532 'Historial de mantenimientos' 16 600)
+$cols = @(@('Orden', 186, 'start', 500, $C.n900), @('Fecha', 320, 'start'), @('Servicios', 450, 'start'), @('Costo', 900, 'start', 500, $C.n900), @('Estado', 1150, 'start'))
+$rows = @( ,@('OT-2026-0001', '10 jun 2026', 'Cambio de aceite y filtro, Rotación de llantas', (Mon 433000), @{badge='Entregada'}) )
+$b += (Tbl 162 548 1116 $cols $rows 46 40)
+Svg '11-portal-cliente.svg' ($b -join "`n")
+
+# ============================ 12 Ficha de cliente ============================
+$b = @((Shell 'Clientes' 'Transportes El Dorado S.A.S.' 'Ficha del cliente e historial' 'Valentina Rojas' 'Recepcionista'))
+$b += (Card 292 104 1116 88); $b += (Tx 316 146 'Transportes El Dorado S.A.S.' 22 700); $b += (Tx 316 172 'NIT 900123456-1 · Última visita: 13 sep 2026' 14 400 $C.n500)
+$b += (Btn 1116 129 90 'Editar' 'secondary'); $b += (Btn 1218 129 170 '+ Registrar vehículo')
+$b += (Card 292 212 1116 92); $b += (Tx 316 240 'Teléfono' 12 500 $C.n500); $b += (Tx 316 264 '3157894561' 14 500)
+$b += (Tx 560 240 'Correo' 12 500 $C.n500); $b += (Tx 560 264 'contacto@transporteseldorado.com' 14 500)
+$b += (Tx 960 240 'Dirección' 12 500 $C.n500); $b += (Tx 960 264 'Av. Boyacá # 12-45, Bogotá' 14 500)
+$b += (Tx 316 288 'El número de documento no se puede modificar (HU-009).' 12 400 $C.n500)
+$b += (Tx 292 340 'Vehículos (3)' 16 600)
+$cols = @(@('Placa', 312, 'start', 500, $C.n900), @('Vehículo', 460, 'start'), @('Tipo', 800, 'start'), @('Kilometraje', 950, 'start'), @('', 1388, 'end'))
+$rows = @(@('TED001', 'Chevrolet NPR · 2018', 'Camión', '95.200 km', @{link='Ver ficha'}), @('TED002', 'Nissan NP300 · 2020', 'Camioneta', '54.000 km', @{link='Ver ficha'}), @('TED003', 'Chevrolet NPR · 2020', 'Camión', '68.200 km', @{link='Ver ficha'}))
+$b += (Tbl 292 356 1116 $cols $rows 44 40)
+$b += (Tx 292 568 'Historial de órdenes' 16 600)
+$cols = @(@('Orden', 312, 'start', 500, $C.n900), @('Fecha', 460, 'start'), @('Vehículo', 600, 'start'), @('Costo', 800, 'start', 500, $C.n900), @('Estado', 950, 'start'), @('', 1388, 'end'))
+$rows = @(@('OT-2026-0009', '13 sep 2026', 'TED002', (Mon 45000), @{badge='Asignada'}, @{link='Ver orden'}), @('OT-2026-0003', '2 jul 2026', 'TED001', (Mon 361000), @{badge='Entregada'}, @{link='Ver orden'}))
+$b += (Tbl 292 584 1116 $cols $rows 44 40)
+Svg '12-ficha-cliente.svg' ($b -join "`n")
+
+# ============================ 13 y 14 Modales de alta ============================
+$b = @((Shell 'Clientes' 'Clientes' 'Gestiona los clientes registrados en el taller' 'Valentina Rojas' 'Recepcionista'))
+$b += (Rc 0 0 1440 900 '#111827' 'none' 0 0.45)
+$b += (Card 440 170 560 470); $b += (Tx 468 208 'Nuevo cliente' 18 600)
+$b += (Inp 468 224 150 'Tipo de documento' 'CC'); $b += (Inp 630 224 342 'Número de documento' '1035467890')
+$b += (Inp 468 300 504 'Nombre completo' 'Nombre y apellidos')
+$b += (Inp 468 376 246 'Teléfono' '3001234567'); $b += (Inp 726 376 246 'Correo (opcional)' 'correo@ejemplo.com' $true)
+$b += (Inp 468 452 504 'Dirección (opcional)' 'Calle 00 # 00-00, Ciudad' $true)
+$b += (Btn 468 572 110 'Cancelar' 'secondary'); $b += (Btn 822 572 150 'Guardar cliente')
+Svg '13-modal-nuevo-cliente.svg' ($b -join "`n")
+
+$b = @((Shell 'Vehículos' 'Vehículos' 'Registro y consulta de vehículos' 'Valentina Rojas' 'Recepcionista'))
+$b += (Rc 0 0 1440 900 '#111827' 'none' 0 0.45)
+$b += (Card 440 170 560 470); $b += (Tx 468 208 'Registrar vehículo' 18 600)
+$b += (Inp 468 224 504 'Cliente (buscar por nombre o documento)' 'Carlos Eduardo Ramírez Toro · CC 15678234')
+$b += (Inp 468 300 246 'Placa' 'ABC123'); $b += (Inp 726 300 246 'Año' '2024')
+$b += (Inp 468 376 246 'Marca' 'Yamaha'); $b += (Inp 726 376 246 'Modelo' 'FZ 3.0')
+$b += (Inp 468 452 246 'Tipo de vehículo' 'Motocicleta'); $b += (Inp 726 452 246 'Kilometraje actual' '0')
+$b += (Btn 468 572 110 'Cancelar' 'secondary'); $b += (Btn 812 572 160 'Guardar vehículo')
+Svg '14-modal-nuevo-vehiculo.svg' ($b -join "`n")
+
+# ============================ 15 Mi perfil ============================
+$b = @((Shell '' 'Mi perfil' 'Datos de contacto y seguridad de tu cuenta' 'Valentina Rojas' 'Recepcionista'))
+$b += (Card 292 104 548 330); $b += (Tx 316 138 'Datos de contacto' 16 600)
+$b += (Inp 316 156 500 'Nombre' 'Valentina Rojas Medina'); $b += (Inp 316 236 500 'Teléfono' '3112345678'); $b += (Inp 316 316 500 'Correo' 'valentina.rojas@mantenix.com')
+$b += (Tx 316 392 'Si cambias el correo se te pedirá reconfirmarlo.' 12 400 $C.n500); $b += (Btn 666 380 150 'Guardar cambios')
+$b += (Card 860 104 548 330); $b += (Tx 884 138 'Cambiar contraseña' 16 600)
+$b += (Inp 884 156 500 'Contraseña actual' '••••••••'); $b += (Inp 884 236 500 'Nueva contraseña' '••••••••'); $b += (Inp 884 316 500 'Confirmar nueva contraseña' '••••••••')
+$b += (Tx 884 392 'Mínimo 8 caracteres, con letras y números.' 12 400 $C.n500); $b += (Btn 1234 380 150 'Actualizar')
+Svg '15-perfil.svg' ($b -join "`n")
+
+# ============================ 16 Recuperar contrasena ============================
+$b = @((Rc 0 0 1440 900 $C.bg), (Rc 0 0 640 900 $C.p900))
+$b += (Tx 64 430 'Mantenix' 32 700 $C.w); $b += (Tx 64 466 'Gestión de mantenimiento preventivo' 16 400 $C.p50); $b += (Tx 64 490 'para talleres automotrices.' 16 400 $C.p50)
+$b += (Tx 820 330 'Recuperar contraseña' 24 700); $b += (Tx 820 358 'Te enviaremos un enlace para crear una nueva contraseña.' 14 400 $C.n500)
+$b += (Inp 820 386 360 'Correo electrónico' 'nombre@mantenix.com' $true)
+$b += (Btn 820 470 360 'Enviar enlace'); $b += (Tx 1000 540 '← Volver a iniciar sesión' 14 500 $C.p600 'middle')
+$b += (Tx 820 580 'El enlace es válido por 30 minutos (HU-003).' 12 400 $C.n500)
+Svg '16-recuperar-contrasena.svg' ($b -join "`n")

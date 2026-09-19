@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<rect x="16" y="195" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="213.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<circle cx="31" cy="336.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="341" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Usuarios</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Vehículos</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Registro y consulta de vehículos</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Valentina Rojas</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Recepcionista</text>
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#111827" fill-opacity="0.45" stroke="none"/>
+<rect x="440" y="170" width="560" height="470" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="468" y="208" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Registrar vehículo</text>
+<text x="468" y="236" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Cliente (buscar por nombre o documento)</text><rect x="468" y="244" width="504" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="480" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Carlos Eduardo Ramírez Toro · CC 15678234</text>
+<text x="468" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Placa</text><rect x="468" y="320" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="480" y="345" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">ABC123</text>
+<text x="726" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Año</text><rect x="726" y="320" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="738" y="345" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">2024</text>
+<text x="468" y="388" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Marca</text><rect x="468" y="396" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="480" y="421" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Yamaha</text>
+<text x="726" y="388" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Modelo</text><rect x="726" y="396" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="738" y="421" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">FZ 3.0</text>
+<text x="468" y="464" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Tipo de vehículo</text><rect x="468" y="472" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="480" y="497" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Motocicleta</text>
+<text x="726" y="464" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Kilometraje actual</text><rect x="726" y="472" width="246" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="738" y="497" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">0</text>
+<rect x="468" y="572" width="110" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="523" y="596" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Cancelar</text>
+<rect x="812" y="572" width="160" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="892" y="596" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">Guardar vehículo</text>
+</svg>

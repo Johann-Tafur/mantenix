@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<rect x="16" y="277" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="295.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Reportes</text>
+<circle cx="31" cy="336.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="341" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Usuarios</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Reportes</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Servicios más realizados y desempeño por técnico</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Johann Tafur</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Administrador</text>
+<rect x="292" y="104" width="300" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="304" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Rango: 1 jun – 19 sep 2026</text>
+<rect x="1268" y="105" width="140" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1338" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Exportar CSV</text>
+<rect x="292" y="164" width="700" height="470" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="198" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Servicios más realizados</text>
+<text x="780" y="198" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end">Veces</text>
+<text x="968" y="198" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end">Ingresos</text>
+<text x="316" y="239" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de aceite y filtro</text>
+<rect x="600" y="226" width="120" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="239" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">4</text>
+<text x="968" y="239" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$480.000</text>
+<text x="316" y="283" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de pastillas de freno</text>
+<rect x="600" y="270" width="60" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="283" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">2</text>
+<text x="968" y="283" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$300.000</text>
+<text x="316" y="327" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Alineación y balanceo</text>
+<rect x="600" y="314" width="60" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="327" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">2</text>
+<text x="968" y="327" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$160.000</text>
+<text x="316" y="371" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Revisión y cambio de correa de distribución</text>
+<rect x="600" y="358" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="371" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="371" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$450.000</text>
+<text x="316" y="415" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de batería</text>
+<rect x="600" y="402" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="415" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="415" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$280.000</text>
+<text x="316" y="459" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de bujías</text>
+<rect x="600" y="446" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="459" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="459" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$90.000</text>
+<text x="316" y="503" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de líquido de frenos</text>
+<rect x="600" y="490" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="503" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="503" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$60.000</text>
+<text x="316" y="547" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de filtro de aire</text>
+<rect x="600" y="534" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="547" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="547" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$45.000</text>
+<text x="316" y="591" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Rotación de llantas</text>
+<rect x="600" y="578" width="30" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<text x="780" y="591" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">1</text>
+<text x="968" y="591" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">$35.000</text>
+<text x="316" y="620" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Excluye órdenes canceladas.</text>
+<rect x="1008" y="164" width="400" height="470" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1032" y="198" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Desempeño por técnico</text>
+<text x="1032" y="230" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Andrés Felipe Muñoz Castaño</text>
+<text x="1032" y="252" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">2 de 4 órdenes terminadas</text>
+<text x="1032" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Tiempo promedio de ejecución</text>
+<text x="1384" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="end">1 h 43 min</text>
+<rect x="1032" y="288" width="352" height="8" rx="4" fill="#F3F4F6" fill-opacity="1" stroke="none"/>
+<rect x="1032" y="288" width="151" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<line x1="1032" y1="322" x2="1384" y2="322" stroke="#D1D5DB"/>
+<text x="1032" y="358" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Kevin Santiago Bermúdez Ospina</text>
+<text x="1032" y="380" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">2 de 3 órdenes terminadas</text>
+<text x="1032" y="406" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Tiempo promedio de ejecución</text>
+<text x="1384" y="406" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="end">1 h 8 min</text>
+<rect x="1032" y="416" width="352" height="8" rx="4" fill="#F3F4F6" fill-opacity="1" stroke="none"/>
+<rect x="1032" y="416" width="100" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+<line x1="1032" y1="450" x2="1384" y2="450" stroke="#D1D5DB"/>
+<text x="1032" y="486" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Fabián Alexander Pineda Gil</text>
+<text x="1032" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">2 de 3 órdenes terminadas</text>
+<text x="1032" y="534" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Tiempo promedio de ejecución</text>
+<text x="1384" y="534" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="end">4 h 0 min</text>
+<rect x="1032" y="544" width="352" height="8" rx="4" fill="#F3F4F6" fill-opacity="1" stroke="none"/>
+<rect x="1032" y="544" width="352" height="8" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/>
+</svg>
