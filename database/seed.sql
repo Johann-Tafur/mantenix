@@ -281,6 +281,9 @@ UPDATE orden_trabajo SET id_estado = (SELECT id_estado FROM estado_orden WHERE n
 
 INSERT INTO historial_estado_orden (id_orden, id_estado, id_usuario, fecha_cambio) VALUES
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Pendiente'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-07-20 14:00:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Asignada'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-07-20 14:10:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'En proceso'), (SELECT id_usuario FROM usuario WHERE correo = 'andres.munoz@mantenix.com'), '2026-07-20 14:30:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Finalizada'), (SELECT id_usuario FROM usuario WHERE correo = 'andres.munoz@mantenix.com'), '2026-07-20 15:30:00'),
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Entregada'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-07-20 16:00:00');
 
 -- ---- OT-2026-0005: Kia Picanto — alineación y balanceo — Finalizada (sin entregar) ----
@@ -303,6 +306,8 @@ UPDATE orden_trabajo SET id_estado = (SELECT id_estado FROM estado_orden WHERE n
 
 INSERT INTO historial_estado_orden (id_orden, id_estado, id_usuario, fecha_cambio) VALUES
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Pendiente'), (SELECT id_usuario FROM usuario WHERE correo = 'sebastian.quintero@mantenix.com'), '2026-09-05 10:00:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Asignada'), (SELECT id_usuario FROM usuario WHERE correo = 'sebastian.quintero@mantenix.com'), '2026-09-05 10:10:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'En proceso'), (SELECT id_usuario FROM usuario WHERE correo = 'kevin.bermudez@mantenix.com'), '2026-09-05 10:20:00'),
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Finalizada'), (SELECT id_usuario FROM usuario WHERE correo = 'kevin.bermudez@mantenix.com'), '2026-09-05 11:15:00');
 
 -- ---- OT-2026-0006: Corolla — correa de distribución — Finalizada (sin entregar) ----
@@ -333,6 +338,8 @@ UPDATE orden_trabajo SET id_estado = (SELECT id_estado FROM estado_orden WHERE n
 
 INSERT INTO historial_estado_orden (id_orden, id_estado, id_usuario, fecha_cambio) VALUES
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Pendiente'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-09-08 08:00:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Asignada'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-09-08 08:15:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'En proceso'), (SELECT id_usuario FROM usuario WHERE correo = 'fabian.pineda@mantenix.com'), '2026-09-08 08:30:00'),
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Finalizada'), (SELECT id_usuario FROM usuario WHERE correo = 'fabian.pineda@mantenix.com'), '2026-09-08 12:30:00');
 
 -- ---- OT-2026-0007: Camión NHR (flota) — pastillas traseras — En proceso ----
@@ -358,6 +365,7 @@ UPDATE orden_trabajo SET id_estado = (SELECT id_estado FROM estado_orden WHERE n
 
 INSERT INTO historial_estado_orden (id_orden, id_estado, id_usuario, fecha_cambio) VALUES
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Pendiente'), (SELECT id_usuario FROM usuario WHERE correo = 'sebastian.quintero@mantenix.com'), '2026-09-10 07:45:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Asignada'), (SELECT id_usuario FROM usuario WHERE correo = 'sebastian.quintero@mantenix.com'), '2026-09-10 07:55:00'),
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'En proceso'), (SELECT id_usuario FROM usuario WHERE correo = 'andres.munoz@mantenix.com'), '2026-09-10 08:15:00');
 
 -- ---- OT-2026-0008: Moto AKT — aceite — En proceso ----
@@ -386,6 +394,7 @@ UPDATE orden_trabajo SET id_estado = (SELECT id_estado FROM estado_orden WHERE n
 
 INSERT INTO historial_estado_orden (id_orden, id_estado, id_usuario, fecha_cambio) VALUES
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Pendiente'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-09-12 09:30:00'),
+  (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'Asignada'), (SELECT id_usuario FROM usuario WHERE correo = 'valentina.rojas@mantenix.com'), '2026-09-12 09:40:00'),
   (@id_orden, (SELECT id_estado FROM estado_orden WHERE nombre_estado = 'En proceso'), (SELECT id_usuario FROM usuario WHERE correo = 'kevin.bermudez@mantenix.com'), '2026-09-12 09:50:00');
 
 -- ---- OT-2026-0009: Camioneta NP300 (flota) — filtro de aire — Asignada ----

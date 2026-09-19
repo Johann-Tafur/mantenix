@@ -44,13 +44,17 @@ Clientes · Vehículos · Catálogo y repuestos · Reportes.
 
 ## Corrección pendiente — pantalla Clientes
 
-Causa raíz: al hacer `resize()` sobre la instancia del componente `Input`, solo cambia el ancho del
-frame contenedor (`layoutSizingHorizontal` pasa a `FIXED`), pero el campo interno (`Field`) fue
-creado con ancho fijo (260px) y no tiene `layoutSizingHorizontal = 'FILL'`, así que no se estira.
-Arreglo: dentro del componente `Input`, poner `Field.layoutSizingHorizontal = 'FILL'` (con el padre
-en modo `HUG`/`FIXED` según corresponda) para que el campo crezca con el contenedor. Revisar también
-por qué el botón "Nuevo cliente" se corta contra el borde derecho de la pantalla — probablemente el
-mismo efecto de ancho arrastra el `Toolbar` más allá de los 1116px disponibles dentro de `Content`.
+Causa raíz (confirmada leyendo la estructura del archivo): cada componente (`Button`, `Badge`,
+`Input`, `NavItem`) se construyó como un `COMPONENT` de tamaño fijo que envuelve un frame
+auto-layout. El componente exterior no se ajusta al contenido, así que:
+- el botón "Nuevo cliente" mide 86px (el ancho de "Guardar") y su texto queda cortado;
+- el `Field` del `Input` tiene ancho fijo de 260px y no se estira al redimensionar la instancia.
+
+Arreglo (ya escrito, pendiente de ejecutar cuando Figma responda): en `Button`, `Badge` y `NavItem`
+poner el componente exterior en auto-layout con tamaño `AUTO` (hug) en ambos ejes, sin relleno ni
+fondo; en `Input`, componente en auto-layout vertical con ancho fijo 260 y el frame interior y el
+`Field` con `layoutSizingHorizontal = 'FILL'`. Nota: el `Toolbar` de la pantalla Clientes mide
+1116px correctamente; el corte del botón no venía del contenedor.
 
 ## Especificación de pantallas pendientes
 

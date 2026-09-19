@@ -16,7 +16,7 @@ repuestos                15
 ordenes                  12
 orden_servicio            15
 orden_repuesto            14
-historial                32
+historial                41
 proximo_mantenimiento     7
 ```
 
@@ -82,16 +82,22 @@ TED001    95200
 ## `vista_alertas_mantenimiento` — próximo mantenimiento calculado
 
 Generado por el mismo trigger a partir del `intervalo_km` / `intervalo_meses` de cada servicio
-realizado (fecha de referencia: 15 sep 2026 — por eso las fechas sugeridas de 2027/2028 muestran
-estado "Al día"):
+realizado. El trigger usa `CURDATE()` como fecha base, así que las fechas sugeridas dependen del
+día en que se cargó el seed (aquí, 19 sep 2026); por eso todas quedan "Al día":
 
 ```
 placa     servicio                        fecha_sugerida  km_sugerido  estado
-AFG123    Cambio de aceite y filtro       2027-03-15      46800        Al dia
-AFG123    Rotación de llantas             2027-03-15      51800        Al dia
-CER567    Cambio de aceite y filtro       2027-03-15      27100        Al dia
-CER567    Cambio de bujías                2028-09-15      52100        Al dia
-MCR456    Cambio de aceite y filtro       2027-03-15      22900        Al dia
-TED001    Cambio de pastillas de freno    2027-09-15      115200       Al dia
-TED001    Cambio de líquido de frenos     2028-09-15      115200       Al dia
+AFG123    Cambio de aceite y filtro       2027-03-19      46800        Al dia
+AFG123    Rotación de llantas             2027-03-19      51800        Al dia
+CER567    Cambio de aceite y filtro       2027-03-19      27100        Al dia
+CER567    Cambio de bujías                2028-09-19      52100        Al dia
+MCR456    Cambio de aceite y filtro       2027-03-19      22900        Al dia
+TED001    Cambio de pastillas de freno    2027-09-19      115200       Al dia
+TED001    Cambio de líquido de frenos     2028-09-19      115200       Al dia
 ```
+
+## Historial de estados consistente
+
+Cada orden tiene una fila en `historial_estado_orden` por cada estado alcanzado (HU-025). Verificación:
+`filas_historial` coincide con el `orden_flujo` del estado actual en todas las órdenes salvo la
+cancelada (OT-2026-0012: Pendiente → Cancelada, 2 filas). Total: 41 filas.
