@@ -35,45 +35,45 @@ Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
 | HU-012 Registrar vehículo | `vehiculo` | — (formulario, pendiente de maquetar) |
-| HU-013 Editar vehículo / kilometraje | `vehiculo.kilometraje_actual` | 04 — Vehículo, ficha técnica (pendiente) |
-| HU-014 Buscar vehículo por placa | `vehiculo.placa` | 04 — Vehículo, ficha técnica (pendiente) |
-| HU-015 Ficha técnica y bitácora | `vehiculo`, `orden_trabajo`, `proximo_mantenimiento` | 04 — Vehículo, ficha técnica (pendiente) |
+| HU-013 Editar vehículo / kilometraje | `vehiculo.kilometraje_actual` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
+| HU-014 Buscar vehículo por placa | `vehiculo.placa` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
+| HU-015 Ficha técnica y bitácora | `vehiculo`, `orden_trabajo`, `proximo_mantenimiento` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
 
 ## Épica 4 — Catálogo de servicios
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-016 Crear tipo de servicio | `servicio` | 07 — Catálogo/Inventario, tab Servicios (pendiente) |
-| HU-017 Editar/desactivar servicio | `servicio.activo` | 07 — Catálogo/Inventario, tab Servicios (pendiente) |
-| HU-018 Consultar catálogo | `servicio` | 07 — Catálogo/Inventario, tab Servicios (pendiente) |
+| HU-016 Crear tipo de servicio | `servicio` | 07 — Catálogo/Inventario, tab Servicios (mockup SVG ✅) |
+| HU-017 Editar/desactivar servicio | `servicio.activo` | 07 — Catálogo/Inventario, tab Servicios (mockup SVG ✅) |
+| HU-018 Consultar catálogo | `servicio` | 07 — Catálogo/Inventario, tab Servicios (mockup SVG ✅) |
 
 ## Épica 5 — Repuestos e inventario
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-019 Registrar repuesto | `repuesto` | 07 — Catálogo/Inventario, tab Repuestos (pendiente) |
-| HU-020 Consultar stock | `repuesto.stock_actual` | 07 — Catálogo/Inventario, tab Repuestos (pendiente) |
-| HU-021 Descontar repuestos usados | `orden_repuesto` + trigger `trg_orden_repuesto_after_insert/_delete` | 06 — Detalle de orden (pendiente) |
-| HU-022 Alerta de stock bajo | `repuesto.stock_minimo` | 07 — Catálogo/Inventario, tab Repuestos (pendiente) |
+| HU-019 Registrar repuesto | `repuesto` | 07 — Catálogo/Inventario, tab Repuestos (mockup SVG ✅) |
+| HU-020 Consultar stock | `repuesto.stock_actual` | 07 — Catálogo/Inventario, tab Repuestos (mockup SVG ✅) |
+| HU-021 Descontar repuestos usados | `orden_repuesto` + trigger `trg_orden_repuesto_after_insert/_delete` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-022 Alerta de stock bajo | `repuesto.stock_minimo` | 07 — Catálogo/Inventario, tab Repuestos (mockup SVG ✅) |
 
 ## Épica 6 — Órdenes de trabajo
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-023 Crear orden de trabajo | `orden_trabajo`, `orden_servicio` | 05 — Crear orden de trabajo (pendiente) |
-| HU-024 Asignar técnico | `orden_trabajo.id_tecnico` | 06 — Detalle de orden (pendiente) |
-| HU-025 Actualizar estado | `estado_orden`, `historial_estado_orden` | 06 — Detalle de orden (pendiente) |
-| HU-026 Agregar servicios/repuestos | `orden_servicio`, `orden_repuesto` + `sp_recalcular_costo_orden` | 06 — Detalle de orden (pendiente) |
-| HU-027 Diagnóstico y observaciones | `orden_trabajo.observaciones` | 06 — Detalle de orden (pendiente) |
-| HU-028 Finalizar y entregar | `orden_trabajo`, trigger `trg_orden_trabajo_after_update` | 06 — Detalle de orden (pendiente) |
-| HU-029 Cancelar orden | `orden_trabajo.motivo_cancelacion` | 06 — Detalle de orden (pendiente) |
+| HU-023 Crear orden de trabajo | `orden_trabajo`, `orden_servicio` | 05 — Crear orden de trabajo (mockup SVG ✅) |
+| HU-024 Asignar técnico | `orden_trabajo.id_tecnico` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-025 Actualizar estado | `estado_orden`, `historial_estado_orden` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-026 Agregar servicios/repuestos | `orden_servicio`, `orden_repuesto` + `sp_recalcular_costo_orden` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-027 Diagnóstico y observaciones | `orden_trabajo.observaciones` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-028 Finalizar y entregar | `orden_trabajo`, trigger `trg_orden_trabajo_after_update` | 06 — Detalle de orden (mockup SVG ✅) |
+| HU-029 Cancelar orden | `orden_trabajo.motivo_cancelacion` | 06 — Detalle de orden (mockup SVG ✅) |
 | HU-030 Listado de órdenes por estado | `orden_trabajo`, `estado_orden` | — (listado "Órdenes de trabajo" dedicado, pendiente; resumen parcial visible en 02) |
 
 ## Épica 7 — Historial y alertas preventivas
 
 | HU | Tablas / columnas de BD | Pantalla Figma |
 |---|---|---|
-| HU-031 Historial de mantenimientos | `orden_trabajo`, `orden_servicio` | 04 — Vehículo, ficha técnica (pendiente) |
+| HU-031 Historial de mantenimientos | `orden_trabajo`, `orden_servicio` | 04 — Vehículo, ficha técnica (mockup SVG ✅) |
 | HU-032 Calcular próximo mantenimiento | `proximo_mantenimiento` + trigger `trg_orden_trabajo_after_update` | Automático — visible en 04 y en el portal del cliente |
 | HU-033 Alertar al cliente | `vista_alertas_mantenimiento` | — (portal del cliente, fuera del primer lote) |
 | HU-034 Panel de alertas del taller | `vista_alertas_mantenimiento` | 02 — Dashboard Administrador ✅ (resumen) / pantalla dedicada pendiente |
@@ -89,7 +89,8 @@ Pantallas: **01** Login · **02** Dashboard Administrador · **03** Clientes · 
 ## Resumen de cobertura
 
 - **37/37** historias de usuario tienen su contraparte modelada en la base de datos.
-- **11/37** historias ya tienen pantalla de Figma terminada o con contenido creado (Épicas 1, 2, 8
-  parcialmente, vía las pantallas 01, 02 y 03).
-- El resto queda especificado en detalle en [docs/figma/README.md](figma/README.md) para
-  construirse en el mismo sistema de diseño ya creado (colores, tipografía, componentes).
+- **23/37** historias ya tienen pantalla diseñada: Login, Dashboard y Clientes en Figma, y las
+  pantallas 02 a 07 como mockups SVG en [figma/mockups/](figma/mockups/README.md) con datos reales de
+  `seed.sql`.
+- Las 14 restantes (usuarios, perfil, formularios de alta, portal del cliente, listado de órdenes y
+  reportes) quedan como siguiente lote de pantallas; ver [figma/README.md](figma/README.md).

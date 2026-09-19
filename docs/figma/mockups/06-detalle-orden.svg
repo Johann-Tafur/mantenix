@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<rect x="16" y="113" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="131.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Orden OT-2026-0007</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Detalle, línea de tiempo y acciones</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Andrés Muñoz</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Técnico</text>
+<rect x="292" y="104" width="1116" height="96" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="146" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="start">OT-2026-0007</text>
+<rect x="492" y="128" width="84" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.14" stroke="none"/><text x="534" y="143" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#8B5CF6" text-anchor="middle">En proceso</text>
+<text x="316" y="174" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#6B7280" text-anchor="start">Chevrolet NHR · DLS010 · Distribuidora La Sabana Ltda.</text>
+<text x="1384" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="end">Costo total</text>
+<text x="1384" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="end">$235.000</text>
+<rect x="292" y="220" width="1116" height="130" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="252" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Línea de tiempo</text>
+<line x1="392" y1="290" x2="600" y2="290" stroke="#2563EB"/>
+<circle cx="380" cy="290" r="9" fill="#F59E0B" stroke="none" stroke-width="2"/>
+<text x="380" y="322" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="middle">Pendiente</text>
+<text x="380" y="338" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="middle">10 sep · 07:45 · S. Quintero</text>
+<line x1="624" y1="290" x2="832" y2="290" stroke="#2563EB"/>
+<circle cx="612" cy="290" r="9" fill="#3B82F6" stroke="none" stroke-width="2"/>
+<text x="612" y="322" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="middle">Asignada</text>
+<text x="612" y="338" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="middle">10 sep · 07:55 · S. Quintero</text>
+<line x1="856" y1="290" x2="1064" y2="290" stroke="#D1D5DB"/>
+<circle cx="844" cy="290" r="9" fill="#8B5CF6" stroke="none" stroke-width="2"/>
+<text x="844" y="322" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">En proceso</text>
+<text x="844" y="338" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="middle">10 sep · 08:15 · A. Muñoz</text>
+<line x1="1088" y1="290" x2="1296" y2="290" stroke="#D1D5DB"/>
+<circle cx="1076" cy="290" r="9" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+<text x="1076" y="322" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#6B7280" text-anchor="middle">Finalizada</text>
+<text x="1076" y="338" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="middle">Pendiente</text>
+<circle cx="1308" cy="290" r="9" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+<text x="1308" y="322" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#6B7280" text-anchor="middle">Entregada</text>
+<text x="1308" y="338" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="middle">Pendiente</text>
+<rect x="292" y="370" width="700" height="120" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="402" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Servicios</text>
+<text x="906" y="410" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#2563EB" text-anchor="middle">+ Agregar servicio</text>
+<text x="316" y="436" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Cambio de pastillas de freno</text>
+<text x="968" y="436" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="end">$150.000</text>
+<rect x="292" y="510" width="700" height="140" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="542" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Repuestos</text>
+<text x="906" y="550" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#2563EB" text-anchor="middle">+ Agregar repuesto</text>
+<text x="316" y="578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Repuesto</text>
+<text x="700" y="578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Cant.</text>
+<text x="800" y="578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">P. unitario</text>
+<text x="968" y="578" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end">Subtotal</text>
+<line x1="316" y1="588" x2="968" y2="588" stroke="#D1D5DB"/>
+<text x="316" y="616" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Pastillas de freno traseras (juego)</text>
+<text x="700" y="616" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="800" y="616" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">$85.000</text>
+<text x="968" y="616" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="end">$85.000</text>
+<rect x="292" y="670" width="700" height="170" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="702" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Observaciones técnicas</text>
+<rect x="316" y="718" width="652" height="96" rx="8" fill="#F9FAFB" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="330" y="744" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Desgaste avanzado en pastillas traseras. Se recomienda revisar</text>
+<text x="330" y="766" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">los discos en la próxima visita.</text>
+<rect x="1008" y="370" width="400" height="220" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1032" y="402" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Detalles</text>
+<text x="1032" y="434" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Técnico</text>
+<text x="1384" y="434" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Andrés Felipe Muñoz Castaño</text>
+<text x="1032" y="468" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Recepción</text>
+<text x="1384" y="468" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Sebastián Quintero Ávila</text>
+<text x="1032" y="502" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Ingreso</text>
+<text x="1384" y="502" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">10 sep 2026 · 07:45</text>
+<text x="1032" y="536" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Km de ingreso</text>
+<text x="1384" y="536" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">60.700 km</text>
+<rect x="1008" y="610" width="400" height="230" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1032" y="642" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Acciones</text>
+<rect x="1032" y="662" width="352" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1208" y="686" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">Marcar como finalizada</text>
+<rect x="1032" y="712" width="352" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1208" y="736" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Reasignar técnico</text>
+<rect x="1032" y="762" width="352" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#EF4444"/><text x="1208" y="786" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#EF4444" text-anchor="middle">Cancelar orden</text>
+<text x="1032" y="826" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Siguiente estado: Finalizada</text>
+</svg>

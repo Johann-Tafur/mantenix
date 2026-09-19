@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<rect x="16" y="154" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="172.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Clientes</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Gestiona los clientes registrados en el taller</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Valentina Rojas</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Recepcionista</text>
+<rect x="292" y="104" width="360" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="304" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#6B7280" text-anchor="start">Buscar por nombre, documento o teléfono...</text>
+<rect x="1258" y="105" width="150" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1333" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">+ Nuevo cliente</text>
+<rect x="292" y="164" width="1116" height="408" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<path d="M293 204 V176 a11 11 0 0 1 11 -11 H1396 a11 11 0 0 1 11 11 V204 Z" fill="#F3F4F6"/>
+<text x="312" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Cliente</text>
+<text x="600" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Documento</text>
+<text x="790" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Teléfono</text>
+<text x="950" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Vehículos</text>
+<text x="1060" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Última visita</text>
+<text x="1388" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end"></text>
+<text x="312" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Andrés Felipe Gómez Restrepo</text>
+<text x="600" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 1035467890</text>
+<text x="790" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3201112233</text>
+<text x="950" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">10 jun 2026</text>
+<text x="1388" y="232" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="250" x2="1407" y2="250" stroke="#F3F4F6"/>
+<text x="312" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">María Camila Rodríguez Pérez</text>
+<text x="600" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 1098234567</text>
+<text x="790" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3202223344</text>
+<text x="950" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">15 jun 2026</text>
+<text x="1388" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="296" x2="1407" y2="296" stroke="#F3F4F6"/>
+<text x="312" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Transportes El Dorado S.A.S.</text>
+<text x="600" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">NIT 900123456-1</text>
+<text x="790" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3157894561</text>
+<text x="950" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3</text>
+<text x="1060" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">13 sep 2026</text>
+<text x="1388" y="324" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="342" x2="1407" y2="342" stroke="#F3F4F6"/>
+<text x="312" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Jorge Iván Salazar Muñoz</text>
+<text x="600" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 79876543</text>
+<text x="790" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3178965412</text>
+<text x="950" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">14 sep 2026</text>
+<text x="1388" y="370" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="388" x2="1407" y2="388" stroke="#F3F4F6"/>
+<text x="312" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Luisa Fernanda Ortiz Vélez</text>
+<text x="600" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 43567890</text>
+<text x="790" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3189632587</text>
+<text x="950" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">5 sep 2026</text>
+<text x="1388" y="416" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="434" x2="1407" y2="434" stroke="#F3F4F6"/>
+<text x="312" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Carlos Eduardo Ramírez Toro</text>
+<text x="600" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 15678234</text>
+<text x="790" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3196547823</text>
+<text x="950" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">20 jul 2026</text>
+<text x="1388" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="480" x2="1407" y2="480" stroke="#F3F4F6"/>
+<text x="312" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Diana Patricia López Cárdenas</text>
+<text x="600" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">CC 52789456</text>
+<text x="790" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3167894523</text>
+<text x="950" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">1</text>
+<text x="1060" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">8 sep 2026</text>
+<text x="1388" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<line x1="293" y1="526" x2="1407" y2="526" stroke="#F3F4F6"/>
+<text x="312" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Distribuidora La Sabana Ltda.</text>
+<text x="600" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">NIT 800456789-2</text>
+<text x="790" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3125896347</text>
+<text x="950" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">2</text>
+<text x="1060" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">12 sep 2026</text>
+<text x="1388" y="554" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Ver ficha</text>
+<text x="292" y="600" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Mostrando 1–8 de 10 clientes</text>
+<rect x="1226" y="584" width="90" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1271" y="608" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Anterior</text>
+<rect x="1326" y="584" width="82" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1367" y="608" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Siguiente</text>
+</svg>

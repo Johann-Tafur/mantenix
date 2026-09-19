@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<rect x="16" y="236" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="254.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Catálogo y repuestos</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Servicios de mantenimiento e inventario</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Johann Tafur</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Administrador</text>
+<rect x="292" y="104" width="200" height="40" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="392" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="middle">Servicios</text>
+<rect x="500" y="104" width="200" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="600" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="middle">Repuestos</text>
+<rect x="1238" y="105" width="170" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1323" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">+ Nuevo servicio</text>
+<rect x="292" y="164" width="1116" height="436" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<path d="M293 204 V176 a11 11 0 0 1 11 -11 H1396 a11 11 0 0 1 11 11 V204 Z" fill="#F3F4F6"/>
+<text x="312" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Servicio</text>
+<text x="690" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Precio base</text>
+<text x="810" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Duración</text>
+<text x="910" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Intervalo recomendado</text>
+<text x="1180" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Estado</text>
+<text x="1388" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end"></text>
+<text x="312" y="231" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de aceite y filtro</text>
+<text x="690" y="231" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$120.000</text>
+<text x="810" y="231" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">45 min</text>
+<text x="910" y="231" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">5.000 km / 6 meses</text>
+<rect x="1180" y="215" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="230" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="231" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="248" x2="1407" y2="248" stroke="#F3F4F6"/>
+<text x="312" y="275" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de filtro de aire</text>
+<text x="690" y="275" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$45.000</text>
+<text x="810" y="275" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">20 min</text>
+<text x="910" y="275" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">10.000 km / 12 meses</text>
+<rect x="1180" y="259" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="274" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="275" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="292" x2="1407" y2="292" stroke="#F3F4F6"/>
+<text x="312" y="319" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Alineación y balanceo</text>
+<text x="690" y="319" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$80.000</text>
+<text x="810" y="319" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">60 min</text>
+<text x="910" y="319" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">10.000 km / 6 meses</text>
+<rect x="1180" y="303" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="318" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="319" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="336" x2="1407" y2="336" stroke="#F3F4F6"/>
+<text x="312" y="363" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de pastillas de freno</text>
+<text x="690" y="363" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$150.000</text>
+<text x="810" y="363" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">90 min</text>
+<text x="910" y="363" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">20.000 km / 12 meses</text>
+<rect x="1180" y="347" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="362" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="363" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="380" x2="1407" y2="380" stroke="#F3F4F6"/>
+<text x="312" y="407" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de líquido de frenos</text>
+<text x="690" y="407" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$60.000</text>
+<text x="810" y="407" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">40 min</text>
+<text x="910" y="407" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">20.000 km / 24 meses</text>
+<rect x="1180" y="391" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="406" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="407" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="424" x2="1407" y2="424" stroke="#F3F4F6"/>
+<text x="312" y="451" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Revisión y cambio de correa de distribución</text>
+<text x="690" y="451" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$450.000</text>
+<text x="810" y="451" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">180 min</text>
+<text x="910" y="451" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">60.000 km / 48 meses</text>
+<rect x="1180" y="435" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="450" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="451" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="468" x2="1407" y2="468" stroke="#F3F4F6"/>
+<text x="312" y="495" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de batería</text>
+<text x="690" y="495" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$280.000</text>
+<text x="810" y="495" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">30 min</text>
+<text x="910" y="495" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">— / 24 meses</text>
+<rect x="1180" y="479" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="494" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="495" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="512" x2="1407" y2="512" stroke="#F3F4F6"/>
+<text x="312" y="539" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Cambio de bujías</text>
+<text x="690" y="539" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$90.000</text>
+<text x="810" y="539" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">50 min</text>
+<text x="910" y="539" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">30.000 km / 24 meses</text>
+<rect x="1180" y="523" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="538" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="539" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="556" x2="1407" y2="556" stroke="#F3F4F6"/>
+<text x="312" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">Rotación de llantas</text>
+<text x="690" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$35.000</text>
+<text x="810" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">30 min</text>
+<text x="910" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">10.000 km / 6 meses</text>
+<rect x="1180" y="567" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1209" y="582" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Activo</text>
+<text x="1388" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+</svg>

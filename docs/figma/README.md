@@ -9,16 +9,31 @@ Archivo: **https://www.figma.com/design/e2hyTjY8Xm5ZQGS9WnZtMx** (equipo de Joha
 | Sistema de diseño base (colores, tipografía) | ✅ Hecho |
 | Componentes: Button, Badge de estado, Input, NavItem | ✅ Hecho |
 | 01 — Login | ✅ Hecho |
-| 02 — Dashboard Administrador (HU-035) | ✅ Hecho |
-| 03 — Clientes (HU-008) | ⚠️ Contenido creado, pendiente corregir: el campo de búsqueda quedó angosto (no hereda el ancho del contenedor) y el botón "Nuevo cliente" se corta en el borde derecho de la pantalla |
-| 04 — Vehículo, ficha técnica | ⏳ Pendiente (especificado abajo) |
-| 05 — Crear orden de trabajo | ⏳ Pendiente (especificado abajo) |
-| 06 — Detalle de orden de trabajo | ⏳ Pendiente (especificado abajo) |
-| 07 — Catálogo de servicios e inventario de repuestos | ⏳ Pendiente (especificado abajo) |
+| 02 — Dashboard Administrador (HU-035) | ⚠️ En Figma, pero con datos inventados que no coinciden con la BD (ver "Correcciones pendientes en Figma"). Versión corregida en [mockups/02-dashboard.svg](mockups/02-dashboard.svg) |
+| 03 — Clientes (HU-008) | ⚠️ En Figma con bug de componentes y datos erróneos. Versión corregida en [mockups/03-clientes.svg](mockups/03-clientes.svg) |
+| 04 — Vehículo, ficha técnica | 🖼️ Mockup SVG listo: [mockups/04-vehiculo-ficha.svg](mockups/04-vehiculo-ficha.svg) |
+| 05 — Crear orden de trabajo | 🖼️ Mockup SVG listo: [mockups/05-crear-orden.svg](mockups/05-crear-orden.svg) |
+| 06 — Detalle de orden de trabajo | 🖼️ Mockup SVG listo: [mockups/06-detalle-orden.svg](mockups/06-detalle-orden.svg) |
+| 07 — Catálogo de servicios e inventario de repuestos | 🖼️ Mockups SVG listos: [07a](mockups/07a-catalogo-servicios.svg) y [07b](mockups/07b-inventario-repuestos.svg) |
 
-La generación se pausó por el límite de llamadas del plan **Starter** de Figma para el MCP
-(`mcp_rate_limit_paywall`). Se retoma cuando el límite se restablece, o si se amplía el plan.
-Este documento sirve de especificación para retomar sin perder contexto.
+El plan **Starter** de Figma limita las llamadas del MCP (`mcp_rate_limit_paywall`): tras la cuota
+inicial solo dejó pasar una llamada más y volvió a bloquear. Por eso las pantallas 04 a 07 (y las
+versiones corregidas de 02 y 03) se generaron como **mockups SVG en [mockups/](mockups/)**, con el mismo
+sistema de diseño y datos tomados de `database/seed.sql`. Se pueden arrastrar a Figma (se importan
+como capas editables). Este documento conserva la especificación funcional de cada pantalla.
+
+## Correcciones pendientes en Figma
+
+Detectadas al revisar el archivo contra `database/seed.sql` (los mockups SVG ya vienen corregidos):
+
+- **Dashboard**: los KPI eran inventados ("Pendientes hoy 5", "Ingresos del mes $3.243.000"). Valores
+  reales: 1 pendiente, 2 asignadas, 2 en proceso, ingresos de órdenes entregadas $1.471.000. El panel de
+  alertas mostraba avisos que no existen en los datos (ej. DPL890 con cambio de aceite); en la BD todos
+  los mantenimientos están "Al día".
+- **Clientes**: Carlos Eduardo Ramírez Toro figuraba con 0 vehículos (tiene 1, CER567) y varias fechas de
+  "Última visita" no coincidían con las órdenes.
+- **Componentes** (`Button`, `Badge`, `Input`, `NavItem`): el `COMPONENT` exterior tiene tamaño fijo y no se
+  ajusta al contenido — ver "Corrección pendiente — componentes" más abajo.
 
 ## Sistema de diseño (ya creado en el archivo)
 
@@ -42,7 +57,7 @@ Este documento sirve de especificación para retomar sin perder contexto.
 **Navegación lateral (IA) común a todas las pantallas internas**: Dashboard · Órdenes de trabajo ·
 Clientes · Vehículos · Catálogo y repuestos · Reportes.
 
-## Corrección pendiente — pantalla Clientes
+## Corrección pendiente — componentes
 
 Causa raíz (confirmada leyendo la estructura del archivo): cada componente (`Button`, `Badge`,
 `Input`, `NavItem`) se construyó como un `COMPONENT` de tamaño fijo que envuelve un frame
@@ -104,7 +119,7 @@ Pantalla con dos pestañas (tabs):
 (km / meses), estado (Activo/Inactivo), botón "+ Nuevo servicio" y acción editar por fila.
 
 **Tab "Repuestos"**: tabla con código de referencia, nombre, precio unitario, stock actual, stock
-mínimo — resaltar en rojo/badge "Bajo stock" las filas donde `stock_actual < stock_minimo`
+mínimo — resaltar en rojo/badge "Bajo stock" las filas donde `stock_actual <= stock_minimo`
 (HU-022), botón "+ Nuevo repuesto".
 
 ## Ver también

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<rect x="16" y="236" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="254.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Catálogo y repuestos</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Servicios de mantenimiento e inventario</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Johann Tafur</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Administrador</text>
+<rect x="292" y="104" width="200" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="392" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="middle">Servicios</text>
+<rect x="500" y="104" width="200" height="40" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="600" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="middle">Repuestos</text>
+<rect x="1238" y="105" width="170" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1323" y="129" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">+ Nuevo repuesto</text>
+<rect x="292" y="164" width="1116" height="520" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<path d="M293 204 V176 a11 11 0 0 1 11 -11 H1396 a11 11 0 0 1 11 11 V204 Z" fill="#F3F4F6"/>
+<text x="312" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Código</text>
+<text x="460" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Repuesto</text>
+<text x="800" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Precio unitario</text>
+<text x="940" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Stock actual</text>
+<text x="1060" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Stock mínimo</text>
+<text x="1180" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="start">Estado</text>
+<text x="1388" y="189" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#6B7280" text-anchor="end"></text>
+<text x="312" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">FLT-ACE-001</text>
+<text x="460" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Filtro de aceite</text>
+<text x="800" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$18.000</text>
+<text x="940" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">38</text>
+<text x="1060" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">10</text>
+<rect x="1180" y="213" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="228" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="244" x2="1407" y2="244" stroke="#F3F4F6"/>
+<text x="312" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">ACE-15W40-001</text>
+<text x="460" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Aceite motor 15W40 (galón)</text>
+<text x="800" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$65.000</text>
+<text x="940" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">52</text>
+<text x="1060" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">15</text>
+<rect x="1180" y="253" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="268" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="269" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="284" x2="1407" y2="284" stroke="#F3F4F6"/>
+<text x="312" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">FLT-AIR-001</text>
+<text x="460" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Filtro de aire</text>
+<text x="800" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$32.000</text>
+<text x="940" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">30</text>
+<text x="1060" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">8</text>
+<rect x="1180" y="293" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="308" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="309" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="324" x2="1407" y2="324" stroke="#F3F4F6"/>
+<text x="312" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">PAST-FRE-DEL</text>
+<text x="460" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Pastillas de freno delanteras (juego)</text>
+<text x="800" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$95.000</text>
+<text x="940" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">19</text>
+<text x="1060" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">5</text>
+<rect x="1180" y="333" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="348" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="349" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="364" x2="1407" y2="364" stroke="#F3F4F6"/>
+<text x="312" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">PAST-FRE-TRA</text>
+<text x="460" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Pastillas de freno traseras (juego)</text>
+<text x="800" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$85.000</text>
+<text x="940" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">19</text>
+<text x="1060" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">5</text>
+<rect x="1180" y="373" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="388" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="404" x2="1407" y2="404" stroke="#F3F4F6"/>
+<text x="312" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">LIQ-FRE-001</text>
+<text x="460" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Líquido de frenos DOT4 (litro)</text>
+<text x="800" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$28.000</text>
+<text x="940" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">23</text>
+<text x="1060" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">6</text>
+<rect x="1180" y="413" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="428" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="429" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="444" x2="1407" y2="444" stroke="#F3F4F6"/>
+<text x="312" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">BAT-12V-001</text>
+<text x="460" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Batería 12V 45Ah</text>
+<text x="800" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$320.000</text>
+<text x="940" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">10</text>
+<text x="1060" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3</text>
+<rect x="1180" y="453" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="468" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="469" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="484" x2="1407" y2="484" stroke="#F3F4F6"/>
+<text x="312" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">BUJ-IRID-001</text>
+<text x="460" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Bujía de iridio (unidad)</text>
+<text x="800" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$22.000</text>
+<text x="940" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">49</text>
+<text x="1060" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">12</text>
+<rect x="1180" y="493" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="508" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="524" x2="1407" y2="524" stroke="#F3F4F6"/>
+<text x="312" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">CORR-DIST-001</text>
+<text x="460" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Correa de distribución</text>
+<text x="800" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$180.000</text>
+<text x="940" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">7</text>
+<text x="1060" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3</text>
+<rect x="1180" y="533" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="548" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="549" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="564" x2="1407" y2="564" stroke="#F3F4F6"/>
+<text x="312" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">LLAN-185-65</text>
+<text x="460" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Llanta 185/65 R15</text>
+<text x="800" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$310.000</text>
+<text x="940" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">16</text>
+<text x="1060" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">4</text>
+<rect x="1180" y="573" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="588" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="604" x2="1407" y2="604" stroke="#F3F4F6"/>
+<text x="312" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">FLT-COMB-001</text>
+<text x="460" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Filtro de combustible</text>
+<text x="800" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$38.000</text>
+<text x="940" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">22</text>
+<text x="1060" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">6</text>
+<rect x="1180" y="613" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="628" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="629" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<line x1="293" y1="644" x2="1407" y2="644" stroke="#F3F4F6"/>
+<text x="312" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">AMORT-DEL-001</text>
+<text x="460" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Amortiguador delantero (unidad)</text>
+<text x="800" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">$210.000</text>
+<text x="940" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">10</text>
+<text x="1060" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">3</text>
+<rect x="1180" y="653" width="71" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1215.5" y="668" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Stock OK</text>
+<text x="1388" y="669" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#2563EB" text-anchor="end">Editar</text>
+<text x="292" y="704" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Mostrando 12 de 15 repuestos · las filas con stock actual ≤ stock mínimo se marcan en rojo como &quot;Bajo stock&quot; (HU-022).</text>
+</svg>

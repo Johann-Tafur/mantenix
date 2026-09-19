@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<circle cx="31" cy="90.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Dashboard</text>
+<rect x="16" y="113" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="131.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Nueva orden de trabajo</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Registra el ingreso del vehículo y los servicios a realizar</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Valentina Rojas</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Recepcionista</text>
+<rect x="292" y="104" width="700" height="560" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="316" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Datos de la orden</text>
+<text x="316" y="168" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Vehículo (buscar por placa)</text><rect x="316" y="176" width="652" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="328" y="201" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">AFG123 — Chevrolet Spark GT</text>
+<text x="316" y="248" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Kilometraje de ingreso</text><rect x="316" y="256" width="310" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="328" y="281" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">41.800</text>
+<text x="658" y="248" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#374151" text-anchor="start">Técnico asignado (opcional)</text><rect x="658" y="256" width="310" height="40" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="670" y="281" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#6B7280" text-anchor="start">Sin asignar</text>
+<text x="316" y="344" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Servicios a realizar</text>
+<line x1="316" y1="360" x2="968" y2="360" stroke="#F3F4F6"/>
+<rect x="316" y="373" width="18" height="18" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/><path d="M320 382 l3.5 3.5 l7 -7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="348" y="387" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Cambio de aceite y filtro</text>
+<text x="968" y="387" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$120.000</text>
+<line x1="316" y1="404" x2="968" y2="404" stroke="#F3F4F6"/>
+<rect x="316" y="417" width="18" height="18" rx="4" fill="#2563EB" fill-opacity="1" stroke="none"/><path d="M320 426 l3.5 3.5 l7 -7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="348" y="431" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Rotación de llantas</text>
+<text x="968" y="431" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$35.000</text>
+<line x1="316" y1="448" x2="968" y2="448" stroke="#F3F4F6"/>
+<rect x="316" y="461" width="18" height="18" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="348" y="475" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Alineación y balanceo</text>
+<text x="968" y="475" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$80.000</text>
+<line x1="316" y1="492" x2="968" y2="492" stroke="#F3F4F6"/>
+<rect x="316" y="505" width="18" height="18" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="348" y="519" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Cambio de filtro de aire</text>
+<text x="968" y="519" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$45.000</text>
+<line x1="316" y1="536" x2="968" y2="536" stroke="#F3F4F6"/>
+<rect x="316" y="549" width="18" height="18" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="348" y="563" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Cambio de pastillas de freno</text>
+<text x="968" y="563" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$150.000</text>
+<line x1="316" y1="580" x2="968" y2="580" stroke="#F3F4F6"/>
+<rect x="316" y="593" width="18" height="18" rx="4" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="348" y="607" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#111827" text-anchor="start">Cambio de líquido de frenos</text>
+<text x="968" y="607" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="end">$60.000</text>
+<text x="316" y="640" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Mostrando 6 de 9 servicios activos del catálogo</text>
+<rect x="1008" y="104" width="400" height="560" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1032" y="138" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Resumen</text>
+<text x="1032" y="166" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Nº de orden</text>
+<text x="1384" y="166" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">OT-2026-0013 (se genera al crear)</text>
+<text x="1032" y="196" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Cliente</text>
+<text x="1384" y="196" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Andrés Felipe Gómez Restrepo</text>
+<text x="1032" y="226" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Vehículo</text>
+<text x="1384" y="226" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">AFG123 · Chevrolet Spark GT</text>
+<text x="1032" y="256" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Kilometraje</text>
+<text x="1384" y="256" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">41.800 km</text>
+<text x="1032" y="286" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Técnico</text>
+<text x="1384" y="286" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#6B7280" text-anchor="end">Sin asignar</text>
+<line x1="1032" y1="306" x2="1384" y2="306" stroke="#D1D5DB"/>
+<text x="1032" y="334" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#111827" text-anchor="start">Servicios seleccionados (2)</text>
+<text x="1032" y="360" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Cambio de aceite y filtro</text>
+<text x="1384" y="360" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="end">$120.000</text>
+<text x="1032" y="384" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Rotación de llantas</text>
+<text x="1384" y="384" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="end">$35.000</text>
+<line x1="1032" y1="408" x2="1384" y2="408" stroke="#D1D5DB"/>
+<text x="1032" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="start">Costo estimado</text>
+<text x="1384" y="444" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="end">$155.000</text>
+<text x="1032" y="476" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Los repuestos se agregan durante la ejecución.</text>
+<rect x="1032" y="584" width="110" height="38" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/><text x="1087" y="608" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#111827" text-anchor="middle">Cancelar</text>
+<rect x="1234" y="584" width="150" height="38" rx="8" fill="#2563EB" fill-opacity="1" stroke="none"/><text x="1309" y="608" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF" text-anchor="middle">Crear orden</text>
+</svg>

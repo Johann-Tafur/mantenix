@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#F9FAFB" fill-opacity="1" stroke="none"/>
+<rect x="0" y="0" width="260" height="900" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="26" y="44" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="start">Mantenix</text>
+<rect x="16" y="72" width="228" height="37" rx="8" fill="#EFF6FF" fill-opacity="1" stroke="none"/>
+<circle cx="31" cy="90.5" r="3" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="46" y="95" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563EB" text-anchor="start">Dashboard</text>
+<circle cx="31" cy="131.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="136" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Órdenes de trabajo</text>
+<circle cx="31" cy="172.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Clientes</text>
+<circle cx="31" cy="213.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="218" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Vehículos</text>
+<circle cx="31" cy="254.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="259" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Catálogo y repuestos</text>
+<circle cx="31" cy="295.5" r="3" fill="#D1D5DB" stroke="none" stroke-width="2"/>
+<text x="46" y="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#374151" text-anchor="start">Reportes</text>
+<rect x="260" y="0" width="1180" height="72" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none"/>
+<line x1="260" y1="72" x2="1440" y2="72" stroke="#D1D5DB"/>
+<text x="292" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#111827" text-anchor="start">Panel general</text>
+<text x="292" y="52" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Resumen de la operación del taller</text>
+<circle cx="1392" cy="36" r="16" fill="#2563EB" stroke="none" stroke-width="2"/>
+<text x="1368" y="32" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="end">Johann Tafur</text>
+<text x="1368" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#6B7280" text-anchor="end">Administrador</text>
+<rect x="292" y="104" width="267" height="94" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="312" y="134" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Órdenes pendientes</text>
+<text x="312" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="start">1</text>
+<rect x="575" y="104" width="267" height="94" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="595" y="134" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Órdenes asignadas</text>
+<text x="595" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="start">2</text>
+<rect x="858" y="104" width="267" height="94" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="878" y="134" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Órdenes en proceso</text>
+<text x="878" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="start">2</text>
+<rect x="1141" y="104" width="267" height="94" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1161" y="134" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280" text-anchor="start">Ingresos (órdenes entregadas)</text>
+<text x="1161" y="172" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#111827" text-anchor="start">$1.471.000</text>
+<rect x="292" y="222" width="700" height="340" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="312" y="254" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Órdenes recientes</text>
+<text x="312" y="306" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0011</text>
+<text x="430" y="306" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Jorge Salazar — JIS789</text>
+<text x="740" y="306" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">Sin asignar</text>
+<rect x="880" y="295" width="77" height="22" rx="11" fill="#F59E0B" fill-opacity="0.14" stroke="none"/><text x="918.5" y="310" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#F59E0B" text-anchor="middle">Pendiente</text>
+<line x1="312" y1="330" x2="972" y2="330" stroke="#F3F4F6"/>
+<text x="312" y="362" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0009</text>
+<text x="430" y="362" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Transportes El Dorado — TED002</text>
+<text x="740" y="362" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">Fabián Pineda</text>
+<rect x="880" y="351" width="71" height="22" rx="11" fill="#3B82F6" fill-opacity="0.14" stroke="none"/><text x="915.5" y="366" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#3B82F6" text-anchor="middle">Asignada</text>
+<line x1="312" y1="386" x2="972" y2="386" stroke="#F3F4F6"/>
+<text x="312" y="418" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0010</text>
+<text x="430" y="418" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Sandra Zapata — SMZ679</text>
+<text x="740" y="418" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">Andrés Muñoz</text>
+<rect x="880" y="407" width="71" height="22" rx="11" fill="#3B82F6" fill-opacity="0.14" stroke="none"/><text x="915.5" y="422" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#3B82F6" text-anchor="middle">Asignada</text>
+<line x1="312" y1="442" x2="972" y2="442" stroke="#F3F4F6"/>
+<text x="312" y="474" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0007</text>
+<text x="430" y="474" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Distribuidora La Sabana — DLS010</text>
+<text x="740" y="474" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">Andrés Muñoz</text>
+<rect x="880" y="463" width="84" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.14" stroke="none"/><text x="922" y="478" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#8B5CF6" text-anchor="middle">En proceso</text>
+<line x1="312" y1="498" x2="972" y2="498" stroke="#F3F4F6"/>
+<text x="312" y="530" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">OT-2026-0008</text>
+<text x="430" y="530" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#374151" text-anchor="start">Juan Pablo Herrera — JPH345</text>
+<text x="740" y="530" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">Kevin Bermúdez</text>
+<rect x="880" y="519" width="84" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.14" stroke="none"/><text x="922" y="534" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#8B5CF6" text-anchor="middle">En proceso</text>
+<rect x="1016" y="222" width="392" height="340" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#D1D5DB"/>
+<text x="1036" y="254" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">Próximos mantenimientos</text>
+<text x="1036" y="290" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">AFG123 — Chevrolet Spark GT</text>
+<text x="1036" y="310" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Cambio de aceite · en 5.000 km / 6 meses</text>
+<rect x="1316" y="276" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1345" y="291" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Al día</text>
+<text x="1036" y="354" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">CER567 — Yamaha FZ 2.0</text>
+<text x="1036" y="374" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Cambio de aceite · en 5.000 km / 6 meses</text>
+<rect x="1316" y="340" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1345" y="355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Al día</text>
+<text x="1036" y="418" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#111827" text-anchor="start">MCR456 — Renault Sandero</text>
+<text x="1036" y="438" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Cambio de aceite · en 5.000 km / 6 meses</text>
+<rect x="1316" y="404" width="58" height="22" rx="11" fill="#22C55E" fill-opacity="0.14" stroke="none"/><text x="1345" y="419" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#22C55E" text-anchor="middle">Al día</text>
+<text x="1036" y="500" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#6B7280" text-anchor="start">Se marcan Próximo (≤15 días o ≤500 km) o Vencido.</text>
+<text x="292" y="594" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#374151" text-anchor="start">Repuestos con stock bajo: 0</text>
+</svg>
